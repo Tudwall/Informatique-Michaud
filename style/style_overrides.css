@@ -1,0 +1,42 @@
+@font-face{
+    font-family: "Gloucester MT Extra Condensed";
+    src: url(fonts/gloucester-mt-extra-condensed.ttf) format("truetype");
+}
+@font-face{
+    font-family: "Verdana";
+    src: url(fonts/Verdana.ttf) format("truetype");
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #F4E7D7;
+}
+
+h1{
+    font-family: "Gloucester MT Extra Condensed", serif;
+    font-size: 15vw;
+    text-shadow: -7px 7px 4px #bfbfbf;
+}
+
+.title-card{
+    background-color: #F9F3EB;
+}
+
+#title-number{
+    font-family: "Gloucester MT Extra Condensed", serif;
+    font-size: 5vw;
+    text-shadow: -4px 4px 4px #bfbfbf;
+    margin-top: -2%;
+}
+
+.subtitle{
+    font-family: Verdana, arial, sans-serif;
+    font-size: 3vw;
+    /* margin: 0 10%; */
+}
+
+#slogan{
+    font-size: 2vw;
+    margin-right: 20%;
+    margin-top: -2%;
+}
