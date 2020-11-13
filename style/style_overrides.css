@@ -3,12 +3,20 @@
     src: url(fonts/gloucester-mt-extra-condensed.ttf) format("truetype");
 }
 @font-face{
-    font-family: "Verdana";
-    src: url(fonts/Verdana.ttf) format("truetype");
+    font-family: "PTsans";
+    src: url(fonts/PT_Sans-Web-Bold.ttf) format("truetype");
+}
+@font-face{
+    font-family: "PTserif";
+    src: url(fonts/PT_Serif-Web-Regular.ttf) format("truetype");
+}
+@font-face{
+    font-family: "PTserif-italic";
+    src: url(fonts/PT_Serif-Web-Italic.ttf) format("truetype");
 }
 
 body{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "PTserif", Times, serif;
     background-color: #F4E7D7;
 }
 
@@ -30,7 +38,7 @@ h1{
 }
 
 .subtitle{
-    font-family: Verdana, arial, sans-serif;
+    font-family: "PTsans", arial, sans-serif;
     font-size: 3vw;
     /* margin: 0 10%; */
 }
@@ -39,8 +47,13 @@ h1{
     font-size: 2vw;
     margin-right: 20%;
     margin-top: -2%;
+    font-family: "PTserif-italic", Times, serif;
 }
 
-p, h3{
+p, h3, li{
     font-size: 1.5vw;
+}
+
+li{
+    list-style-type: '- ';
 }
