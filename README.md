@@ -1,1 +1,1 @@
-# info-michaud
+# Informatique Michaud
