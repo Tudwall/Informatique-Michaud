@@ -1,4 +1,12 @@
 @charset "UTF-8";
+.bg-dark {
+  background-color: #333333;
+}
+
+.btn-dark {
+  background-color: #333333;
+}
+
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors

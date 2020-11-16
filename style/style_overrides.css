@@ -15,6 +15,11 @@
     src: url(fonts/PT_Serif-Web-Italic.ttf) format("truetype");
 }
 
+html{
+    position: relative;
+    min-height: 100%;
+}
+
 body{
     font-family: "PTserif", Times, serif;
     background-color: #F4E7D7;
@@ -40,7 +45,6 @@ h1{
 .subtitle{
     font-family: "PTsans", arial, sans-serif;
     font-size: 3vw;
-    /* margin: 0 10%; */
 }
 
 #slogan{
@@ -58,3 +62,18 @@ li{
     list-style-type: '- ';
 }
 
+a{
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #000000;
+    text-decoration: underline;
+}
+
+.footer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
