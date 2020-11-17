@@ -1,78 +1,87 @@
-@font-face{
+@font-face {
     font-family: "Gloucester MT Extra Condensed";
     src: url(fonts/gloucester-mt-extra-condensed.ttf) format("truetype");
 }
-@font-face{
+
+@font-face {
     font-family: "PTsans";
     src: url(fonts/PT_Sans-Web-Bold.ttf) format("truetype");
 }
-@font-face{
+
+@font-face {
     font-family: "PTserif";
     src: url(fonts/PT_Serif-Web-Regular.ttf) format("truetype");
 }
-@font-face{
+
+@font-face {
     font-family: "PTserif-italic";
     src: url(fonts/PT_Serif-Web-Italic.ttf) format("truetype");
 }
 
-html{
+html {
     position: relative;
     min-height: 100%;
 }
 
-body{
+body {
     font-family: "PTserif", Times, serif;
     background-color: #F4E7D7;
 }
 
-h1{
+h1 {
     font-family: "Gloucester MT Extra Condensed", serif;
     font-size: 15vw;
     text-shadow: -7px 7px 4px #bfbfbf;
 }
 
-.title-card{
+.title-card {
     background-color: #F9F3EB;
 }
 
-#title-number{
+#title-number {
     font-family: "Gloucester MT Extra Condensed", serif;
     font-size: 5vw;
     text-shadow: -4px 4px 4px #bfbfbf;
     margin-top: -2%;
 }
 
-.subtitle{
+.subtitle {
     font-family: "PTsans", arial, sans-serif;
     font-size: 3vw;
 }
 
-#slogan{
+#slogan {
     font-size: 2vw;
     margin-right: 25%;
     margin-top: -2%;
     font-family: "PTserif-italic", Times, serif;
 }
 
-p, h3, li{
+p,
+h3,
+li {
     font-size: 1.5vw;
 }
 
-li{
+#legal-text {
+    font-size: 1.2vw;
+}
+
+li {
     list-style-type: '- ';
 }
 
-a{
+a {
     color: #000000;
     text-decoration: none;
 }
 
-a:hover{
+a:hover {
     color: #000000;
     text-decoration: underline;
 }
 
-.footer{
+.footer {
     position: absolute;
     left: 0;
     bottom: 0;
