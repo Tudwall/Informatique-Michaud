@@ -1709,14 +1709,14 @@ pre code {
 .table td {
   padding: 0.75rem;
   vertical-align: top;
-  border-top: 1px solid #dee2e6;
+  border-top: 1px solid #000000;
 }
 .table thead th {
   vertical-align: bottom;
-  border-bottom: 2px solid #dee2e6;
+  border-bottom: 2px solid #000000;
 }
 .table tbody + tbody {
-  border-top: 2px solid #dee2e6;
+  border-top: 2px solid #000000;
 }
 
 .table-sm th,
@@ -1725,11 +1725,11 @@ pre code {
 }
 
 .table-bordered {
-  border: 1px solid #dee2e6;
+  border: 1px solid #000000;
 }
 .table-bordered th,
 .table-bordered td {
-  border: 1px solid #dee2e6;
+  border: 1px solid #000000;
 }
 .table-bordered thead th,
 .table-bordered thead td {
@@ -1934,7 +1934,7 @@ pre code {
 .table .thead-light th {
   color: #495057;
   background-color: #e9ecef;
-  border-color: #dee2e6;
+  border-color: #000000;
 }
 
 .table-dark {
@@ -5527,7 +5527,7 @@ a.close.disabled {
   align-items: flex-start;
   justify-content: space-between;
   padding: 1rem 1rem;
-  border-bottom: 1px solid #dee2e6;
+  border-bottom: 1px solid #000000;
   border-top-left-radius: calc(0.3rem - 1px);
   border-top-right-radius: calc(0.3rem - 1px);
 }
@@ -5553,7 +5553,7 @@ a.close.disabled {
   align-items: center;
   justify-content: flex-end;
   padding: 0.75rem;
-  border-top: 1px solid #dee2e6;
+  border-top: 1px solid #000000;
   border-bottom-right-radius: calc(0.3rem - 1px);
   border-bottom-left-radius: calc(0.3rem - 1px);
 }
@@ -6193,23 +6193,23 @@ button.bg-dark:focus {
 }
 
 .border {
-  border: 1px solid #dee2e6 !important;
+  border: 1px solid #000000 !important;
 }
 
 .border-top {
-  border-top: 1px solid #dee2e6 !important;
+  border-top: 1px solid #000000 !important;
 }
 
 .border-right {
-  border-right: 1px solid #dee2e6 !important;
+  border-right: 1px solid #000000 !important;
 }
 
 .border-bottom {
-  border-bottom: 1px solid #dee2e6 !important;
+  border-bottom: 1px solid #000000 !important;
 }
 
 .border-left {
-  border-left: 1px solid #dee2e6 !important;
+  border-left: 1px solid #000000 !important;
 }
 
 .border-0 {
@@ -9904,6 +9904,220 @@ a.text-dark:hover, a.text-dark:focus {
   visibility: hidden !important;
 }
 
+.border-top {
+  border-top: 1px solid #000000 !important;
+}
+
+.border-right {
+  border-right: 1px solid #000000 !important;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #000000 !important;
+}
+
+.border-left {
+  border-left: 1px solid #000000 !important;
+}
+
+.border-top-0 {
+  border-top: 0 !important;
+}
+
+.border-right-0 {
+  border-right: 0 !important;
+}
+
+.border-bottom-0 {
+  border-bottom: 0 !important;
+}
+
+.border-left-0 {
+  border-left: 0 !important;
+}
+
+.border-x {
+  border-left: 1px solid #000000 !important;
+  border-right: 1px solid #000000 !important;
+}
+
+.border-y {
+  border-top: 1px solid #000000 !important;
+  border-bottom: 1px solid #000000 !important;
+}
+
+@media (min-width: 576px) {
+  .border-sm-top {
+    border-top: 1px solid #000000 !important;
+  }
+
+  .border-sm-right {
+    border-right: 1px solid #000000 !important;
+  }
+
+  .border-sm-bottom {
+    border-bottom: 1px solid #000000 !important;
+  }
+
+  .border-sm-left {
+    border-left: 1px solid #000000 !important;
+  }
+
+  .border-sm-top-0 {
+    border-top: 0 !important;
+  }
+
+  .border-sm-right-0 {
+    border-right: 0 !important;
+  }
+
+  .border-sm-bottom-0 {
+    border-bottom: 0 !important;
+  }
+
+  .border-sm-left-0 {
+    border-left: 0 !important;
+  }
+
+  .border-sm-x {
+    border-left: 1px solid #000000 !important;
+    border-right: 1px solid #000000 !important;
+  }
+
+  .border-sm-y {
+    border-top: 1px solid #000000 !important;
+    border-bottom: 1px solid #000000 !important;
+  }
+}
+@media (min-width: 768px) {
+  .border-md-top {
+    border-top: 1px solid #000000 !important;
+  }
+
+  .border-md-right {
+    border-right: 1px solid #000000 !important;
+  }
+
+  .border-md-bottom {
+    border-bottom: 1px solid #000000 !important;
+  }
+
+  .border-md-left {
+    border-left: 1px solid #000000 !important;
+  }
+
+  .border-md-top-0 {
+    border-top: 0 !important;
+  }
+
+  .border-md-right-0 {
+    border-right: 0 !important;
+  }
+
+  .border-md-bottom-0 {
+    border-bottom: 0 !important;
+  }
+
+  .border-md-left-0 {
+    border-left: 0 !important;
+  }
+
+  .border-md-x {
+    border-left: 1px solid #000000 !important;
+    border-right: 1px solid #000000 !important;
+  }
+
+  .border-md-y {
+    border-top: 1px solid #000000 !important;
+    border-bottom: 1px solid #000000 !important;
+  }
+}
+@media (min-width: 992px) {
+  .border-lg-top {
+    border-top: 1px solid #000000 !important;
+  }
+
+  .border-lg-right {
+    border-right: 1px solid #000000 !important;
+  }
+
+  .border-lg-bottom {
+    border-bottom: 1px solid #000000 !important;
+  }
+
+  .border-lg-left {
+    border-left: 1px solid #000000 !important;
+  }
+
+  .border-lg-top-0 {
+    border-top: 0 !important;
+  }
+
+  .border-lg-right-0 {
+    border-right: 0 !important;
+  }
+
+  .border-lg-bottom-0 {
+    border-bottom: 0 !important;
+  }
+
+  .border-lg-left-0 {
+    border-left: 0 !important;
+  }
+
+  .border-lg-x {
+    border-left: 1px solid #000000 !important;
+    border-right: 1px solid #000000 !important;
+  }
+
+  .border-lg-y {
+    border-top: 1px solid #000000 !important;
+    border-bottom: 1px solid #000000 !important;
+  }
+}
+@media (min-width: 1200px) {
+  .border-xl-top {
+    border-top: 1px solid #000000 !important;
+  }
+
+  .border-xl-right {
+    border-right: 1px solid #000000 !important;
+  }
+
+  .border-xl-bottom {
+    border-bottom: 1px solid #000000 !important;
+  }
+
+  .border-xl-left {
+    border-left: 1px solid #000000 !important;
+  }
+
+  .border-xl-top-0 {
+    border-top: 0 !important;
+  }
+
+  .border-xl-right-0 {
+    border-right: 0 !important;
+  }
+
+  .border-xl-bottom-0 {
+    border-bottom: 0 !important;
+  }
+
+  .border-xl-left-0 {
+    border-left: 0 !important;
+  }
+
+  .border-xl-x {
+    border-left: 1px solid #000000 !important;
+    border-right: 1px solid #000000 !important;
+  }
+
+  .border-xl-y {
+    border-top: 1px solid #000000 !important;
+    border-bottom: 1px solid #000000 !important;
+  }
+}
 @media print {
   *,
 *::before,
@@ -9990,12 +10204,12 @@ h3 {
 .table-dark td,
 .table-dark thead th,
 .table-dark tbody + tbody {
-    border-color: #dee2e6;
+    border-color: #000000;
   }
 
   .table .thead-dark th {
     color: inherit;
-    border-color: #dee2e6;
+    border-color: #000000;
   }
 }
 
