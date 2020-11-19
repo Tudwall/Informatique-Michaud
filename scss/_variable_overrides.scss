@@ -1,16 +1,14 @@
-$container-max-widths: (
-  sm: 100%,
+$container-max-widths: (sm: 100%,
   md: 90%,
   lg: 90%,
-  xl: 90%
-) !default;
+  xl: 90%) !default;
 
-.bg-dark{
+.bg-dark {
   background-color: #333333;
 }
 
 $border-color: #000000 !default;
 
-.btn-dark{
+.btn-dark {
   background-color: #333333;
 }

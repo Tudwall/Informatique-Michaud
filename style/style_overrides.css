@@ -1,93 +1,93 @@
 @font-face {
-    font-family: "Gloucester MT Extra Condensed";
-    src: url(fonts/gloucester-mt-extra-condensed.ttf) format("truetype");
+  font-family: "Gloucester MT Extra Condensed";
+  src: url(fonts/gloucester-mt-extra-condensed.ttf) format("truetype");
 }
-
 @font-face {
-    font-family: "PTsans";
-    src: url(fonts/PT_Sans-Web-Bold.ttf) format("truetype");
+  font-family: "PTsans";
+  src: url(fonts/PT_Sans-Web-Bold.ttf) format("truetype");
 }
-
 @font-face {
-    font-family: "PTserif";
-    src: url(fonts/PT_Serif-Web-Regular.ttf) format("truetype");
+  font-family: "PTserif";
+  src: url(fonts/PT_Serif-Web-Regular.ttf) format("truetype");
 }
-
 @font-face {
-    font-family: "PTserif-italic";
-    src: url(fonts/PT_Serif-Web-Italic.ttf) format("truetype");
+  font-family: "PTserif-italic";
+  src: url(fonts/PT_Serif-Web-Italic.ttf) format("truetype");
 }
-
 html {
-    position: relative;
-    min-height: 100%;
+  position: relative;
+  min-height: 100%;
 }
 
 body {
-    font-family: "PTserif", Times, serif;
-    background-color: #F4E7D7;
+  font-family: "PTserif", Times, serif;
+  background-color: #F4E7D7;
 }
 
 h1 {
-    font-family: "Gloucester MT Extra Condensed", serif;
-    font-size: 15vw;
-    text-shadow: -7px 7px 4px #bfbfbf;
+  font-family: "Gloucester MT Extra Condensed", serif;
+  font-size: 15vw;
+  text-shadow: -7px 7px 4px #bfbfbf;
 }
 
 .title-card {
-    background-color: #F9F3EB;
+  background-color: #F9F3EB;
 }
 
 #title-number {
-    font-family: "Gloucester MT Extra Condensed", serif;
-    font-size: 5vw;
-    text-shadow: -4px 4px 4px #bfbfbf;
-    margin-top: -2%;
+  font-family: "Gloucester MT Extra Condensed", serif;
+  font-size: 5vw;
+  text-shadow: -4px 4px 4px #bfbfbf;
+  margin-top: -2%;
 }
 
-.subtitle {
-    font-family: "PTsans", arial, sans-serif;
-    font-size: 3vw;
+#subtitle {
+  font-family: "PTsans", arial, sans-serif;
+  font-size: 3vw;
 }
 
 #slogan {
-    font-size: 2vw;
-    margin-right: 25%;
-    margin-top: -2%;
-    font-family: "PTserif-italic", Times, serif;
+  font-size: 2vw;
+  margin-right: 25%;
+  margin-top: -2%;
+  font-family: "PTserif-italic", Times, serif;
 }
 
 p,
 h3,
 li {
-    font-size: 1.5vw;
+  font-size: 1.5vw;
 }
 
-.icons{
-    width: 2.5vw;
+.icons {
+  width: 2.5vw;
 }
 
 #legal-text {
-    font-size: 1.2vw;
+  font-size: 1.2vw;
 }
 
 li {
-    list-style-type: '- ';
+  list-style-type: "- ";
 }
 
 a {
-    color: #000000;
-    text-decoration: none;
+  color: #000000;
+  text-decoration: none;
 }
 
 a:hover {
-    color: #000000;
-    text-decoration: underline;
+  color: #000000;
+  text-decoration: underline;
 }
 
 .footer {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    font-size: 0.8vw;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  font-size: 0.8vw;
 }
+
+/*# sourceMappingURL=style_overrides.css.map */
+
+/*# sourceMappingURL=style_overrides.css.map */
