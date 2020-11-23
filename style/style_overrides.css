@@ -87,9 +87,3 @@ a:hover {
   bottom: 0;
   font-size: 0.8vw;
 }
-
-@media screen and (min-width: 576px){
-  body{
-    font-size: 200%;
-  }
-}
