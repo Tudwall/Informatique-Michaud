@@ -88,6 +88,8 @@ a:hover {
   font-size: 0.8vw;
 }
 
-/*# sourceMappingURL=style_overrides.css.map */
-
-/*# sourceMappingURL=style_overrides.css.map */
+@media screen and (min-width: 576px){
+  body{
+    font-size: 200%;
+  }
+}
