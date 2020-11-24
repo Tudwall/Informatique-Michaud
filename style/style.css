@@ -608,7 +608,7 @@ pre code {
 }
 @media (min-width: 768px) {
   .container-md, .container-sm, .container {
-    max-width: 90%;
+    max-width: 100%;
   }
 }
 @media (min-width: 992px) {
