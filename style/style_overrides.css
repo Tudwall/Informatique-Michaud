@@ -113,7 +113,8 @@ a:hover {
   }
 
   .icons{
-    font-size: 3vh;
+    height: 5%;
+    width: 5%;
   }
 
   #legal-text{
