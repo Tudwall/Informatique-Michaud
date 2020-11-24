@@ -26,7 +26,7 @@ body {
 
 h1 {
   font-family: "Gloucester MT Extra Condensed", serif;
-  font-size: 15vw;
+  font-size: 15vh;
   text-shadow: -7px 7px 4px #bfbfbf;
 }
 
@@ -36,18 +36,18 @@ h1 {
 
 #title-number {
   font-family: "Gloucester MT Extra Condensed", serif;
-  font-size: 5vw;
+  font-size: 5vh;
   text-shadow: -4px 4px 4px #bfbfbf;
   margin-top: -2%;
 }
 
 #subtitle {
   font-family: "PTsans", arial, sans-serif;
-  font-size: 3vw;
+  font-size: 3vh;
 }
 
 #slogan {
-  font-size: 2vw;
+  font-size: 2vh;
   margin-right: 25%;
   margin-top: -2%;
   font-family: "PTserif-italic", Times, serif;
@@ -56,15 +56,15 @@ h1 {
 p,
 h3,
 li {
-  font-size: 1.5vw;
+  font-size: 1.5vh;
 }
 
 .icons {
-  width: 2.5vw;
+  width: 2.5vh;
 }
 
 #legal-text {
-  font-size: 1.2vw;
+  font-size: 1.2vh;
 }
 
 li {
@@ -85,9 +85,11 @@ a:hover {
   position: absolute;
   left: 0;
   bottom: 0;
-  font-size: 0.8vw;
+  font-size: 0.8vh;
 }
 
-/*# sourceMappingURL=style_overrides.css.map */
-
-/*# sourceMappingURL=style_overrides.css.map */
+@media screen and (min-width: 576px){
+  body{
+    font-size: 200%;
+  }
+}
