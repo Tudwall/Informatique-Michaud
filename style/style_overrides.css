@@ -2,14 +2,17 @@
   font-family: "Gloucester MT Extra Condensed";
   src: url(fonts/gloucester-mt-extra-condensed.ttf) format("truetype");
 }
+
 @font-face {
   font-family: "PTsans";
   src: url(fonts/PT_Sans-Web-Bold.ttf) format("truetype");
 }
+
 @font-face {
   font-family: "PTserif";
   src: url(fonts/PT_Serif-Web-Regular.ttf) format("truetype");
 }
+
 @font-face {
   font-family: "PTserif-italic";
   src: url(fonts/PT_Serif-Web-Italic.ttf) format("truetype");
@@ -25,7 +28,7 @@ body {
   background-color: #F4E7D7;
 }
 
-h1 {
+#michaud {
   font-family: "Gloucester MT Extra Condensed", serif;
   font-size: 15vw;
   text-shadow: -7px 7px 4px #bfbfbf;
@@ -55,12 +58,16 @@ h1 {
 }
 
 p,
-h3,
+h2,
 li {
   font-size: 1.5vw;
 }
 
-.icons{
+/* strong {
+  font-weight: normal;
+} */
+
+.icons {
   width: 2.5vw;
 }
 
@@ -89,39 +96,39 @@ a:hover {
   font-size: 0.8vw;
 }
 
-@media screen and (orientation: portrait){
-  h1{
+@media screen and (orientation: portrait) {
+  h1 {
     font-size: 16vh;
   }
 
-  #title-number{
+  #title-number {
     font-size: 7vh;
   }
 
-  #subtitle{
+  #subtitle {
     font-size: 5vh;
   }
 
-  #slogan{
+  #slogan {
     font-size: 3vh;
   }
 
   p,
   h3,
-  li{
+  li {
     font-size: 2vh;
   }
 
-  .icons{
+  .icons {
     height: 5%;
     width: 5%;
   }
 
-  #legal-text{
+  #legal-text {
     font-size: 1.5vh;
   }
 
-  .footer{
+  .footer {
     font-size: 1vh;
   }
- }
+}
