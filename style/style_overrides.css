@@ -68,7 +68,8 @@ li {
 } */
 
 .icons {
-  width: 2.5vw;
+  height: 5%;
+  width: 5%;
 }
 
 #legal-text {
@@ -96,8 +97,13 @@ a:hover {
   font-size: 0.8vw;
 }
 
+.social {
+  height: 3%;
+  width: 3%;
+}
+
 @media screen and (orientation: portrait) {
-  h1 {
+  #michaud {
     font-size: 16vh;
   }
 
@@ -114,12 +120,12 @@ a:hover {
   }
 
   p,
-  h3,
+  h2,
   li {
     font-size: 2vh;
   }
 
-  .icons {
+  .social {
     height: 5%;
     width: 5%;
   }
