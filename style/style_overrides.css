@@ -97,7 +97,7 @@ a:hover {
 }
 
 @media screen and (orientation: portrait) {
-  h1 {
+  #michaud {
     font-size: 16vh;
   }
 
@@ -114,7 +114,7 @@ a:hover {
   }
 
   p,
-  h3,
+  h2,
   li {
     font-size: 2vh;
   }
